@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:murojaah/murject.dart';
+import 'package:murojaah/rabu/murject.dart';
+import 'package:murojaah/kamis/reject.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 // import 'package:lottie/lottie.dart';
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
             Text("",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
           ],
         ),
-        nextScreen: Murject(),
+        nextScreen: Reject(),
         splashIconSize: 200,
         backgroundColor: Colors.white,
         duration: 3000, // durasi 3 detik
