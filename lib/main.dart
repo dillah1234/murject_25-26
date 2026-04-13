@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:murojaah/jumaat/screen/home_screen.dart';
 import 'package:murojaah/rabu/murject.dart';
 import 'package:murojaah/kamis/reject.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
               width: 150, 
               height: 150,
               child: Icon(  
-                Icons.face_retouching_off_sharp,
+                Icons.book_online,
                 size: 100,
                 color: Colors.blue,
               ),
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
             Text("",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
           ],
         ),
-        nextScreen: Reject(),
+        nextScreen: HomeScreen(),
         splashIconSize: 200,
         backgroundColor: Colors.white,
         duration: 3000, // durasi 3 detik
