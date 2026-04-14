@@ -47,6 +47,20 @@ class ShortcutGrid extends StatelessWidget {
             Expanded(
               child: item(Icons.account_balance, "Saldo Saya", "Rp99.999"),
             ),
+            
+          ],
+        ),
+        SizedBox(height: 10),
+        Row(
+          children: [
+            Expanded(
+              child: item(Icons.zoom_in_rounded, "tambah shortcut", ""),
+            ),
+            SizedBox(width: 10),
+            Expanded(
+              child: item(Icons.handshake, "ajak teman", "undang dan dapatkan hadiah"),
+            ),
+            
           ],
         ),
       ],
